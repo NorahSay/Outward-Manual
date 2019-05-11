@@ -14,12 +14,12 @@ const styles = {
     borderWidth: 1,
     borderRadius: 2,
     borderColor: '#DDD',
-    // borderBottomColor: 'rgba(100, 100, 100, 0.1)',
     borderBottomWidth: 0,
     elevation: 1,
-    marginLeft: 5,
-    marginRight: 5,
+    marginLeft: 20,
+    marginRight: 20,
     marginTop: 10
+
   }
 };
 

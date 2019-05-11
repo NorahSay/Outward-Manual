@@ -1,6 +1,6 @@
 //Import library
 import React from 'react';
-import { Text, View } from 'react-native';
+import { Text, View, StatusBar } from 'react-native';
 
 
 //Make component
@@ -8,6 +8,7 @@ const Header = (props) => {
   const { textStyle, viewStyle } = styles;
   return (
     <View style={viewStyle}>
+      <StatusBar barStyle="light-content" />
       <Text style={textStyle}>{props.headerText}</Text>
     </View>
   );
@@ -15,7 +16,7 @@ const Header = (props) => {
 
 const styles = {
   viewStyle: {
-    backgroundColor: '#F8F8F8',
+    backgroundColor: '#2c3e50',
     justifyContent: 'center', 
     alignItems: 'center',
     height: 90,
@@ -28,7 +29,8 @@ const styles = {
 
   },
   textStyle: {
-    fontSize: 20
+    fontSize: 20,
+    color: '#FFFFFF'
   }
 };
 
