@@ -16,9 +16,7 @@ const styles = {
     borderColor: '#DDD',
     borderBottomWidth: 0,
     elevation: 1,
-    marginLeft: 20,
-    marginRight: 20,
-    marginTop: 10
+    margin: 10
 
   }
 };

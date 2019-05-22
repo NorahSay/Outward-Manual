@@ -20,6 +20,7 @@ const styles = {
     borderColor: '#007AFF',
     marginRight: 5,
     marginLeft: 5
+
   },
   text: {
     alignSelf: 'center',
